@@ -1,5 +1,5 @@
 import { Download, Mail } from "lucide-react"
-import image from "../assets/Group 997.png"
+import image from "../assets/me.png"
 
 export default function FirstSection() {
   return (
@@ -14,9 +14,7 @@ export default function FirstSection() {
             <p className="font-semibold">Full-Stack MERN Developer</p>
         </div>  
         <h1 className="sm:text-5xl text-4xl font-bold ">👋Hi, I'm Kristijan Vasikj</h1>
-        <p className="font-medium text-base">I’m Kristijan Vasikj, a skilled web developer and designer crafting visually
-            stunning and highly functional websites. My expertise lies in front-end
-            development, responsive design, and creating user- friendly interfaces.
+        <p className="font-medium text-base">I’m Kristijan Vasic, a full-stack developer specializing in the MERN stack. I build modern, scalable web applications using React on the frontend and Node.js, Express, and MongoDB on the backend. My focus is on creating clean, responsive interfaces combined with efficient, well-structured backend systems that deliver a smooth user experience.
         </p>
 
         <div className="flex items-center gap-2">
@@ -24,7 +22,7 @@ export default function FirstSection() {
                 <button className="px-4 py-2 text-sm font-medium rounded-lg bg-black text-white border flex items-center gap-2"><Download size={16}/>My CV</button>  
             </a>
             <a href="mailto:vasickiko@gmail.com" className="px-4 py-2 text-sm font-medium rounded-lg bg-black/5 text-black border flex items-center gap-2">
-                <Mail size={16}/>vasickiko@gmail.com
+                <Mail size={16}/>Contact me
             </a> 
         </div>
 

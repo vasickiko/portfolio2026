@@ -1,6 +1,6 @@
 
 import { Drone, ExternalLink, Mouse } from "lucide-react"
-import image from "../assets/Frame 32.png"
+import image from "../assets/mouselab.png"
 
 export default function SecondSection() {
   return (
@@ -13,7 +13,7 @@ export default function SecondSection() {
           {/* LABEL */}
            <div className="flex w-fit items-center gap-2 p-1.5 bg-purple-200 text-white rounded-2xl">   
             <div className="flex items-center gap-2 bg-purple-500 p-2 px-2 sm:px-4 rounded-xl">
-              <h1 className="text-lg font-medium">Featured Project</h1>
+              <h1 className="text-base font-medium">Featured Project</h1>
             </div>         
           </div>
 
@@ -42,7 +42,7 @@ export default function SecondSection() {
 
           {/* NOTE */}
           <p className="text-sm text-black/50">
-            The rest of my projects are currently being updated, improved, and prepared for hosting.
+            The rest of my projects are currently being updated and prepared for hosting.
           </p>
         </div>
 

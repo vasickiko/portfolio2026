@@ -9,12 +9,12 @@ export default function FourthSection() {
              <h1 className="sm:text-2xl text-xl font-bold">More Projects Coming Soon</h1>
             <p className="font-medium">The rest of my projects are currently being updated and prepared for hosting.</p>
            </div>
-           <div className="flex flex-col sm:flex-row items-center gap-2">
+           <div className="flex flex-row items-center gap-2">
             <a href="/KristijanVasikj-2026CV.pdf" download target="_blank" rel="noopener noreferrer">
                 <button className="px-4 py-2 text-sm font-medium rounded-lg bg-black text-white border flex items-center gap-2"><Download size={16}/>My CV</button>  
             </a>
             <a href="mailto:vasickiko@gmail.com" className="px-4 py-2 text-sm font-medium rounded-lg bg-black/5 text-black border flex items-center gap-2">
-                <Mail size={16}/>vasickiko@gmail.com
+                <Mail size={16}/>Contact me
             </a> 
         </div>
             </div>
