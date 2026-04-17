@@ -4,7 +4,7 @@ export default function FourthSection() {
 
     return(
         <div className="w-full h-fit bg-white py-12 sm:py-20 px-8 sm:px-0">
-            <div className="container sm:max-w-3xl max-w-full shadow-md mx-auto border border-black/5 rounded-xl sm:p-10 p-6 text-center flex flex-col gap-6 items-center justify-center">
+            <div className="container sm:max-w-3xl max-w-full shadow-md shadow-purple-300/30 mx-auto border border-black/5 rounded-xl sm:p-10 p-6 text-center flex flex-col gap-6 items-center justify-center">
            <div className="space-y-2">
              <h1 className="sm:text-2xl text-xl font-bold">More Projects Coming Soon</h1>
             <p className="font-medium">The rest of my projects are currently being updated and prepared for hosting.</p>
